@@ -30,7 +30,7 @@ let oscw = new OSCW('#oscw')
   <div id="oscw"></div>
 </body>
 <script src="https://cdn.jsdelivr.net/gh/sviniabanditka/oscw/dist/oscw.min.js"></script>
-<script type="module">
+<script>
   let oscw = new OSCW('#oscw')
   console.log(oscw);
 </script>
