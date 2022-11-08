@@ -20,7 +20,7 @@ import OSCW from 'oscw'
 let oscw = new OSCW('#oscw')
 ```
 
-## Plain HTML
+## HTML
 
 ```
 <!DOCTYPE html>
