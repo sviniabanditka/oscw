@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Opencart Step Calculator Widget",
   "main": "src/app.js",
-  "scripts": {},
+  "scripts": {
+    "mix": "npx mix"
+  },
   "author": "sviniabanditka",
   "license": "ISC",
   "repository": "github:sviniabanditka/oscw",

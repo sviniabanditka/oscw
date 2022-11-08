@@ -8,7 +8,7 @@ import Alpine from 'alpinejs'
 // import widget template
 import widgetHTML from './../widget.html';
 
-const initAlpine = () => {
+const initAlpine = function (alpineSelector) {
   
   /**
    *  If you're abstracting your component logic into a JS file (imported above), 
@@ -20,7 +20,7 @@ const initAlpine = () => {
   Alpine.start();
 
   // #app is a div that we're going to inject our markup into
-  document.querySelector('#app').innerHTML = widgetHTML;
+  document.querySelector(alpineSelector).innerHTML = widgetHTML;
 }
 
 export default initAlpine;
