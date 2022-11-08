@@ -8,10 +8,10 @@ const initCSS = () => {
   
   if (process.env.NODE_ENV  == 'production') {
     // A CDN link to your production CSS
-    link.href = "https://cdn.jsdelivr.net/gh/joseph-farruggio/js-widget@1.0/dist/styles.css";
+    link.href = "https://cdn.jsdelivr.net/gh/sviniabanditka/oscw/dist/oscw.min.css";
   } else {
     // Your local CSS for local development
-    link.href = "./../dist/styles.css";
+    link.href = "./../dist/oscw.min.css";
   }
 
   // Append the stylesheet to the <head> of the DOM
