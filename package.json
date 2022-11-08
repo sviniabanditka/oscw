@@ -1,0 +1,11 @@
+{
+  "name": "oscw",
+  "version": "1.0.0",
+  "description": "Opencart Step Calculator Widget",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sviniabanditka",
+  "license": "ISC"
+}
